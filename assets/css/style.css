@@ -1,0 +1,84 @@
+*, body {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+nav {
+  width: 100%;
+  min-height: 60px;
+  display: flex;
+  background: #fff;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+  position: fixed;
+  top: 0;
+  z-index: 1000; }
+  nav .nav-content {
+    width: 80%;
+    height: 100%;
+    background: transparent;
+    position: relative;
+    margin: auto;
+    display: flex; }
+    nav .nav-content .logo {
+      display: inline-flex;
+      width: 100px;
+      line-height: 40px;
+      flex: 2; }
+      nav .nav-content .logo h2 {
+        color: #000000;
+        font-weight: lighter;
+        font-family: sans-serif;
+        line-height: 70px; }
+    nav .nav-content .s-n-p {
+      justify-content: flex-end;
+      padding: 20px; }
+      nav .nav-content .s-n-p img {
+        width: 30px;
+        margin-left: 20px;
+        border-radius: 50%;
+        line-height: 70px; }
+        nav .nav-content .s-n-p img:hover {
+          cursor: pointer; }
+
+.container {
+  margin-top: 100px;
+  padding: 20px;
+  z-index: -10px;
+  position: relative; }
+  .container .left-sidebar {
+    min-height: 500px; }
+    .container .left-sidebar img {
+      border-radius: 100%; }
+  .container .others {
+    position: absolute;
+    bottom: 0; }
+  .container .right-sidebar {
+    min-height: 500px; }
+    .container .right-sidebar .card {
+      padding: 20px;
+      background: #F7F7F7; }
+      .container .right-sidebar .card input {
+        width: 100%;
+        border: none;
+        border-bottom: 2px solid;
+        background: transparent; }
+        .container .right-sidebar .card input:focus {
+          border: none !important;
+          border-bottom: 2px solid black;
+          box-shadow: none !important;
+          border-top: 2px solid #F7F7F7 !important; }
+  .container .right-sidebar .card-footer {
+    background-color: transparent; }
+    .container .right-sidebar .card-footer .icons {
+      display: inline-block; }
+      .container .right-sidebar .card-footer .icons i {
+        margin-left: 10px;
+        line-height: 40px; }
+  .container .right-sidebar .story-content img {
+    border-radius: 50%; }
+
+/*# sourceMappingURL=style.css.map */

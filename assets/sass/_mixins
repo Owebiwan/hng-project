@@ -1,0 +1,6 @@
+@mixin prefixes ($webkit,$moz,$o,$ms,$value,$property){
+    -$webkit-#{$value}:$property;
+    -$moz-#{$value}:$property;
+    -$o-#{$value}:$property;
+    -$ms-#{$value}:$property;
+}
